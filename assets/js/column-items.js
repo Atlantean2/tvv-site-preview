@@ -1,5 +1,5 @@
 /* TechVestVentures cosmos column: the list of art shown on the left of every page.
-   To add art: copy one { ... } block, change the values, keep the commas. See README.txt.
+   To add art: copy one { ... } block, change the values, keep the commas.
      image   : compressed display copy (WebP or JPEG), about 1280 px wide        (required)
      image2x : optional bigger display copy, about 1920 px wide
      hires   : optional full-resolution PNG, loaded only on screens 2560 px and wider
