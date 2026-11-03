@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TechVest bare arrow, v7.2 2026-11-01: the exact geometry of the Word freeform arrow in the TechVest Econometrics
+     newsletters (logo/TVV arrow bare vector from newsletter 2012.svg, same shape as the masthead tile), red #FF0033,
+     with BOTH forward wings (the upper-left barb and the right barb). The viewBox has an 8% margin on every side,
+     so nothing touches the edge and no tile size can crop a wing. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-63467 -51387 920273 642367" width="920" height="642"><title>TechVest arrow</title>
+<polygon points="0,410800 340003,410800 510004,564850 736672,205400 793339,359450 793339,0 396670,102700 566671,102700" fill="#FF0033"/>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-36000 -36000 865339 636850" width="865.339" height="636.85">
+<!-- TechVestVentures red arrow, master. Geometry is the exact Word freeform from the TechVest Econometrics newsletter (2012 issues), unchanged. Arrow #FF0033; white outline (half of stroke shows outside the exact red shape), no shadow, for dark backgrounds. -->
+<title>TechVestVentures arrow, white outline (for dark backgrounds)</title>
+<g id="outline"><polygon points="0,410800 340003,410800 510004,564850 736672,205400 793339,359450 793339,0 396670,102700 566671,102700" fill="none" stroke="#FFFFFF" stroke-width="36000" stroke-linejoin="round"/></g>
+<g id="arrow"><polygon points="0,410800 340003,410800 510004,564850 736672,205400 793339,359450 793339,0 396670,102700 566671,102700" fill="#FF0033"/></g>
+</svg>

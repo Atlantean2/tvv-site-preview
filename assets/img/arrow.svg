@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8000 -8000 885659 657170" width="885.659" height="657.17">
+<!-- TechVestVentures red arrow, master. Geometry is the exact Word freeform from the TechVest Econometrics newsletter (2012 issues), unchanged. Arrow #FF0033; hard black shadow offset 76319 units at 45 deg. -->
+<title>TechVestVentures arrow</title>
+<g id="shadow"><polygon points="76319,487120 416322,487120 586323,641170 812992,281720 869659,435770 869659,76319 472989,179019 642990,179019" fill="#000000"/></g>
+<g id="arrow"><polygon points="0,410800 340003,410800 510004,564850 736672,205400 793339,359450 793339,0 396670,102700 566671,102700" fill="#FF0033"/></g>
+</svg>

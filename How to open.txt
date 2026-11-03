@@ -1,0 +1,59 @@
+TechVestVentures home page prototype v7.9 2026-11-03 (not published, not on GitHub)
+
+1. Unzip "TVV Home Prototype v7.9 2026-11-03.zip" anywhere on your computer.
+2. Double-click index.html. It opens in Chrome, Edge or Safari. No internet or install is needed for the pages.
+3. Click Ventures, Approach, Thinking or About, in the tabs or in the black cosmos column on the left.
+   A transition picture fades in over the page, holds briefly, then dissolves smoothly into the next page, like a
+   PowerPoint fade: 0.7 s in, 0.6 s hold, 0.7 s out, 2 seconds in all.
+   Each click shows the next of six pictures in turn (Red Arrow Comet first).
+   The cosmos column stays still the whole time. Click or press any key during the hold to skip ahead.
+4. The site pictures (including the first, TVV Daily Risk Alert Digest) on the Home page and the Ventures tab open the sites in a new tab, with the same kind
+   of transition there: the next picture fades in, holds, dissolves to white, then the site opens.
+   The Augmentive tile opens the local prototype, so keep the two unzipped folders side by side.
+
+New in v7.9 2026-11-03: "Augmentive Creative Destruction", the lower cube loop at the bottom of the black column,
+is now the long three-part sequence (launch, recombination, then the green-inlaid cube structure that ends in a
+pyramid with red accents), about 83 seconds.
+
+New in v7.8 2026-11-02: one "Galaxy" tab in the top line opens the TVV Cosmic Command Center. On any cosmos page,
+use the four view buttons near the top (Galaxy, Lunar Galaxy, Orbits, Lunar Orbits) to switch views.
+Bryson Industries now sits on the gold arm.
+
+New in v7.7 2026-11-02: four cosmic views. Tabs: Galaxy, Lunar Galaxy, Orbits, Lunar Orbits (also the four
+view pills at the top of each cosmos page). The Lunar views add small role moons around each team star; point at,
+tap, or Tab to a moon to see that role. Every team's roles are also listed under "All teams as a list".
+Two new stars: Alumiworks and Longevity Strategies.
+
+New in v7.6 2026-11-02: the Galaxy and Orbits pages no longer show the Meet tab or the footer contact links;
+the other pages keep them.
+
+New in v7.5 2026-11-01: two animated pages right after Home, the TVV Cosmic Command Center.
+Click "Galaxy" or "Orbits" in the tabs (or "Next" at the bottom of Home). Galaxy is a slowly rotating galaxy of
+Michael's teams; Orbits is a stellar system with the teams orbiting Michael's sun. Point at, tap, or Tab to a star
+to see that team's role and what it produces; Esc or a tap elsewhere hides it. The roster comes from one file,
+assets/data/cosmos-roster.js, updated weekly (see README.txt).
+
+New in v7.2 2026-11-01: the first tile is now "TVV Daily Risk Alert Digest" and it is live: it opens
+https://atlantean2.github.io/tvv-daily-risk-alert-digest/ in a new tab with the same transition as the other sites
+(so do the Home-page line and the footer link). The tile shows the whole red TechVest arrow. New tile order:
+Digest, techvesteconometrics, intualityai (now labelled "Prediction"), bryson, ultimateplan, stemXbank, CognomIQ,
+ideamille, augmentiveAIventures, hanscalmeyer.
+
+New in v7.1 2026-11-01: "TVV Daily Digest" is the first tile in Affiliated Venture Sites (Home and Ventures)
+and in Related (Thinking), with a line near the top of Home and a link in every footer. Its address is not
+set yet, so it shows "Coming soon" and does nothing when clicked. To set it later, change DIGEST_URL in
+assets/js/digest.js (one edit).
+
+New in v7.0 2026-11-01: two looping cube animations at the bottom of the black column on every page,
+"Augmentive Growth with TVV AI" and below it "Augmentive Creative Destruction" (scroll the column down).
+They start when they come into view. (v6.0 2026-10-31 added the angels-and-demons chessboard.)
+
+Tips
+- To freeze the transition for a close look, add ?preview=transition to the address, e.g. index.html?preview=transition
+  (add &tx=1 to &tx=6 to pick one of the six pictures)
+- If your computer is set to reduce motion, there is a short fade and no hold, on purpose.
+- Text in dashed boxes marked [Placeholder] is not final copy.
+- To add art to the cosmos column, see README.txt.
+- The zip leaves out the 4K PNG originals of the art (about 50 MB) to stay under 25 MB, so the pages use the
+  compressed WebP copies everywhere. If you copy the folder assets/img/art/4k/ from the full working copy into
+  the same place, screens 2560 pixels wide or more load the 4K PNGs automatically after the page opens.

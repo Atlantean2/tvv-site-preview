@@ -1,0 +1,5 @@
+How to open the Augmentive AI Ventures prototype
+1. Unzip the folder anywhere (keep it next to "tvv prototype v3" if you want the link from the TechVestVentures tile to work).
+2. Double-click index.html. It opens in your web browser; no internet or install needed except for the outside links.
+3. Click any tab or picture on the left to move between pages. The hands picture appears for 3 seconds between pages; click to skip.
+To turn the in-between picture off, open assets/js/config.js in a text editor and change "all" to "off".

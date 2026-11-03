@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="tvv-go">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TechVestVentures | opening an affiliated venture site</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/lqip.js"></script>
+<script src="assets/js/digest.js"></script>
+<script src="assets/js/transitions.js"></script>
+<style>
+  /* v6.1: new-tab transition for the Affiliated Venture Sites tiles (see assets/js/transitions.js) */
+  html.tvv-go, html.tvv-go body{height:100%; background:#000; overflow:hidden}
+  .tvv-go .comet{left:0; visibility:visible; opacity:0; transition:opacity var(--fade-in) var(--ease); cursor:pointer}
+  .tvv-go.tvv-go-in .comet{opacity:1}
+  .go-note{position:fixed; left:0; right:0; bottom:1.2rem; margin:0; text-align:center; font-family:var(--verdana); font-size:.72rem; color:#9aa1ab; z-index:60}
+  .go-note a{color:#c9cdd3}
+  .tvv-go-bad .comet{display:none}
+  html.tvv-go-out, html.tvv-go-out body{background:var(--go-end, #000)}
+  .tvv-go.tvv-go-out .comet, .tvv-go-out .go-note{opacity:0; transition:opacity var(--fade-out) var(--ease)}
+</style>
+</head>
+<body>
+<div class="comet" aria-hidden="true">
+<img class="comet-img" alt="" width="1920" height="1080" decoding="sync" fetchpriority="high">
+<div class="comet-shade"></div>
+<p class="comet-hint"><span class="ch-name">TechVestVentures</span><span class="ch-tag">Humanized AI</span><span class="ch-skip">Click or press any key to continue</span></p>
+</div>
+<p class="go-note">Opening <a class="go-link" href="index.html">TechVestVentures</a></p>
+<script>TVV_TX_INIT()</script>
+</body>
+</html>
