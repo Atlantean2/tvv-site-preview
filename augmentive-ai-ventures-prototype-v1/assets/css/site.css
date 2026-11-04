@@ -45,7 +45,7 @@ a:focus-visible, button:focus-visible{outline:3px solid var(--red); outline-offs
   background-size:100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 900px, 100% 100%;
   border-right:1px solid #161616; scrollbar-width:thin; scrollbar-color:#333 #000; padding:0 0 2rem}
 .cosmos-brand{display:grid; grid-template-columns:auto 1fr; column-gap:.75rem; align-items:center; padding:1.2rem 1.25rem 1.1rem; text-decoration:none; border-bottom:1px solid #1c1c1c}
-.cosmos-brand img{grid-row:span 2; width:1.5rem; height:auto; align-self:center}
+.cosmos-brand img{grid-row:span 2; width:1.8rem; height:auto; max-width:none; aspect-ratio:920/642; object-fit:contain; overflow:visible; align-self:center}
 .cb-name{font-family:var(--serif); color:#f2f2f2; font-size:1.15rem; line-height:1.15}
 .cb-tag{font-family:var(--serif); font-style:italic; color:var(--col-text); font-size:.85rem}
 .cosmos-list{list-style:none; margin:0; padding:1.1rem 1.1rem 0; display:grid; gap:1.25rem}
@@ -60,7 +60,6 @@ a:focus-visible, button:focus-visible{outline:3px solid var(--red); outline-offs
 
 /* ---------- stage (everything right of the column) ---------- */
 .stage{margin-left:var(--col); min-height:100vh; background:var(--panel)}
-.proto{margin:0; background:#3b0d14; color:#ffe3e6; font-family:var(--sans); font-size:.72rem; padding:.35rem 1.2rem; text-align:center}
 
 .masthead{background:var(--char); background-image:linear-gradient(#232323 0, #232323 .7rem, #2d2d2d .7rem, #2a2a2a 100%); color:#fff; padding-top:.7rem}
 .mh-row{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) auto; gap:1.5rem; align-items:end; padding:1rem clamp(1rem,3vw,3.5rem) 1.1rem; max-width:1700px; margin:0 auto}
@@ -159,7 +158,7 @@ html.tvv-arriving.tvv-reveal .comet{opacity:0; visibility:hidden; pointer-events
   :root{--col:0px}
   .cosmos{position:relative; width:auto; bottom:auto; overflow:visible; display:flex; align-items:center; padding:0; border-right:0; border-bottom:1px solid #1c1c1c; background-size:auto}
   .cosmos-brand{flex:0 0 auto; border-bottom:0; padding:.7rem .9rem; grid-template-columns:auto; justify-items:center; row-gap:.15rem; text-align:center}
-  .cosmos-brand img{grid-row:auto; width:1.3rem; height:auto}
+  .cosmos-brand img{grid-row:auto; width:1.55rem; height:auto}
   .cb-name{font-size:.8rem} .cb-tag{font-size:.72rem}
   .cosmos-list{display:flex; gap:.7rem; overflow-x:auto; padding:.7rem .9rem .6rem 0; scroll-snap-type:x mandatory; scrollbar-width:thin}
   .cosmos-list li{flex:0 0 9.5rem; scroll-snap-align:start}
@@ -213,9 +212,9 @@ html.tvv-arriving.tvv-reveal .comet{opacity:0; visibility:hidden; pointer-events
 :root{ --gold:#d9a441; --gold-text:#8a5a00; }   /* --gold-text 6.0:1 on #fcfcfc */
 /* masthead mark (placeholder until a logo exists) */
 .mh-logo.aav-mark{display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.35rem; width:7.3rem; height:5.8rem; background:#111 radial-gradient(circle at 70% 30%, #3a2a0d, #111 70%); border:1px solid #4a4a4a; line-height:1.1; text-decoration:none}
-.mh-logo.aav-mark img{width:2.4rem}
+.mh-logo.aav-mark img{width:2.8rem; height:auto; aspect-ratio:920/642; object-fit:contain}
 .mh-logo.aav-mark span{font-family:var(--sans); font-weight:bold; color:#fff; font-size:.72rem; letter-spacing:.04em; text-align:center}
-@media (max-width:560px){ .mh-logo.aav-mark{width:4.6rem; height:4rem} .mh-logo.aav-mark img{width:1.6rem} .mh-logo.aav-mark span{font-size:.55rem} }
+@media (max-width:560px){ .mh-logo.aav-mark{width:4.6rem; height:4rem} .mh-logo.aav-mark img{width:1.9rem} .mh-logo.aav-mark span{font-size:.55rem} }
 /* full-bleed hands hero inside the content panel */
 .aav-hero{position:relative; margin:0; min-height:clamp(420px, 62vh, 980px); display:flex; align-items:flex-end; color:#fff; background:#0b0b0b; overflow:hidden}
 .aav-hero > img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 45%}
