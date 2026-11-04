@@ -99,10 +99,6 @@ a:focus-visible, button:focus-visible{outline:3px solid var(--red); outline-offs
 .panel h3{font-family:var(--sans); color:var(--navy); font-size:1rem; margin:0 0 .4rem}
 .lead{font-size:1.25rem; line-height:1.45; margin:.2rem 0 .9rem; text-align:justify; max-width:75ch; font-weight:bold; color:#262626}
 .note{font-family:var(--sans); color:var(--muted); font-size:.8rem; margin:.2rem 0 1rem}
-.areas{list-style:none; padding:0; margin:0 0 1rem; display:flex; flex-wrap:wrap; gap:.5rem 0}
-.areas li{font-family:var(--sans); font-weight:bold; color:var(--navy); font-size:.9rem; padding:0 1rem}
-.areas li:first-child{padding-left:0}
-.areas li + li{border-left:2px solid var(--red)}
 .ph{border:1px dashed #9a9a9a; background:#f3f3f3; color:#4a4a4a; font-family:var(--sans); font-size:.82rem; padding:.7rem .9rem; margin:.6rem 0; max-width:80ch}
 .mission-q{margin:0; padding:1rem 1.4rem; border-left:4px solid var(--red); background:#f3f3f3}
 .mission-q p{margin:0; font-size:1.3rem; font-style:italic}
@@ -205,8 +201,7 @@ html.tvv-arriving.tvv-reveal .comet{opacity:0; visibility:hidden; pointer-events
   .lead{font-size:1.1rem; text-align:left}
   .comet{left:0}
 }
-@media (max-width:560px){ .tiles.sites{grid-template-columns:1fr} .tiles{gap:1.1rem} .areas li{padding:0 .7rem} .facts{grid-template-columns:1fr} .facts dd{margin-bottom:.5rem} }
-@media (max-width:560px){ .areas li, .areas li + li{border-left:0; padding:0 1.1rem 0 0} .areas li + li::before{content:"\25B8\00a0"; color:var(--red-text)} }
+@media (max-width:560px){ .tiles.sites{grid-template-columns:1fr} .tiles{gap:1.1rem} .facts{grid-template-columns:1fr} .facts dd{margin-bottom:.5rem} }
 
 /* ---------- v3 ---------- */
 .mh-logo{width:auto; height:auto; background:none; border:0; padding:0; box-shadow:0 3px 10px rgba(0,0,0,.6); display:block; line-height:0}
@@ -259,3 +254,9 @@ html:not(.tvv-digest-live) .digest-live-only{display:none}
 .digest-link{font-style:normal; font-weight:bold; color:var(--red-text)}
 .digest-link:not([href]){cursor:default; text-decoration:none}
 .foot-sites .digest-link{color:inherit; font-weight:bold}
+
+/* v8.0 2026-11-03: hero art on the Acceleration and Business Models pages */
+.page-hero{margin:0 0 1.4rem}
+.page-hero img{display:block; width:100%; height:auto; max-height:420px; object-fit:cover; box-shadow:3px 3px 8px rgba(0,0,0,.3)}
+.page-hero figcaption{font-family:var(--sans); font-size:.8rem; color:#555; margin-top:.4rem}
+.card .src{font-family:var(--sans); font-size:.75rem; color:#555; margin:.5rem 0 0}

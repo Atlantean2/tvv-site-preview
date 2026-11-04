@@ -20,13 +20,13 @@ window.TVV_COLUMN = [
     hires:   "assets/img/art/4k/concept-1-building-blocks-cosmos-tall-4k.png",
     tall:    true,   /* v6: shown 1.5x taller (art 1.5x larger), cropped more vertical */
     alt:     "Golden building-block cubes floating in a dark cosmos around a red arrow",
-    link:    "approach.html", caption: "Building Blocks Cosmos", label: "Approach" },
+    link:    "business-models.html", caption: "Building Blocks Cosmos", label: "Business Models" },
 
   { image:   "assets/img/art/concept-3-red-arrow-comet-1280.webp",
     image2x: "assets/img/art/concept-3-red-arrow-comet-1920.webp",
     hires:   "assets/img/art/4k/concept-3-red-arrow-comet-4k.png",
     alt:     "A red arrow streaking like a comet across a golden mosaic sky",
-    link:    "index.html", caption: "Red Arrow Comet", label: "Home" },
+    link:    "acceleration.html", caption: "Red Arrow Comet", label: "Acceleration" },
 
   /* v6.0 2026-10-31: Michael's angels-and-demons chessboard, on black, directly below the Red Arrow Comet.
      Shown only (no link). Full-size original (2000 x 1125 PNG) in assets/img/art/4k/. */
@@ -47,13 +47,13 @@ window.TVV_COLUMN = [
     image2x: "assets/img/art/concept-2-human-and-machine-hands-1920.webp",
     hires:   "assets/img/art/4k/concept-2-human-and-machine-hands-4k.png",
     alt:     "A human hand and a machine hand passing a golden cube marked with a red arrow",
-    link:    "approach.html", caption: "Human and Machine Hands", label: "Approach" },
+    link:    "acceleration.html", caption: "Human and Machine Hands", label: "Acceleration" },
 
   { image:   "assets/img/art/concept-5-humanities-and-sciences-1280.webp",
     image2x: "assets/img/art/concept-5-humanities-and-sciences-1920.webp",
     hires:   "assets/img/art/4k/concept-5-humanities-and-sciences-4k.png",
     alt:     "A classical column, lyre and books beside a DNA helix and building blocks under a red arrow",
-    link:    "thinking.html", caption: "Humanities and Sciences", label: "Thinking" },
+    link:    "business-models.html", caption: "Humanities and Sciences", label: "Business Models" },
 
   { image:   "assets/img/art/concept-6-golden-cube-unfolding-1280.webp",
     image2x: "assets/img/art/concept-6-golden-cube-unfolding-1920.webp",
@@ -62,15 +62,8 @@ window.TVV_COLUMN = [
     link:    "about.html", caption: "Golden Cube Unfolding", label: "About" },
 
   /* v7.0 2026-11-01: Michael's two deep-gold cube animations (chosen 1 Nov 2026), on black, after Golden Cube
-     Unfolding. Autoplay, muted, looping, no controls, no link. Short one on top, long one below.
+     Unfolding. Autoplay, muted, looping, no controls, no link. (v8.0 2026-11-03: the short one removed for now; only the long one remains.)
      Poster-only when the computer is set to reduce motion. */
-  { video:   { webm: "assets/video/Cube launch v6 2026-11-01 joined web 4x3.webm",
-               mp4:  "assets/video/Cube launch v6 2026-11-01 joined web 4x3.mp4" },
-    image:   "assets/video/Cube launch v6 2026-11-01 joined poster 4x3.webp",
-    matte:   true,
-    alt:     "Animation: golden cubes in a dark cosmos crack open and release red arrows",
-    caption: "Augmentive Growth with TVV AI" },
-
   /* v7.9 2026-11-03: the long three-part Creative Destruction sequence (launch, recombination, then the
      green-inlaid cube structure ending in a pyramid with red accents), about 83 s. */
   { video:   { webm: "assets/video/Cube launch recombination and structure v1 2026-11-03 web 4x3.webm",
@@ -78,5 +71,5 @@ window.TVV_COLUMN = [
     image:   "assets/video/Cube launch recombination and structure v1 2026-11-03 poster 4x3.webp",
     matte:   true,
     alt:     "Animation: golden cubes break apart, launch red arrows, recombine, and rebuild as green-inlaid cubes stacked into a pyramid with red accents",
-    caption: "Augmentive Creative Destruction" }
+    caption: "Creative Destruction and Augmentive Smart Rebuild" }
 ];
