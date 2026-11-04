@@ -256,8 +256,6 @@ html.tvv-arriving.tvv-reveal .comet{opacity:0; visibility:hidden; pointer-events
 html:not(.tvv-digest-live) .digest-tile .tile-cap::after{content:none}
 html:not(.tvv-digest-live) .digest-live-only{display:none}
 .tvv-digest-live .digest-soon{display:none}
-.digest-line{font-family:var(--serif); font-style:italic; font-size:1.02rem; line-height:1.5; color:#444; max-width:75ch; margin:.2rem 0 1.1rem; padding-left:.9rem; border-left:3px solid #c9a646}
 .digest-link{font-style:normal; font-weight:bold; color:var(--red-text)}
 .digest-link:not([href]){cursor:default; text-decoration:none}
-.digest-line .digest-tag{font-family:var(--sans); font-style:normal; font-size:.72rem; font-weight:bold; letter-spacing:.04em; color:#7a5c00; background:#fbf1cf; border:1px solid #e2c46a; border-radius:2px; padding:.05rem .4rem; margin-left:.25rem; white-space:nowrap}
 .foot-sites .digest-link{color:inherit; font-weight:bold}
