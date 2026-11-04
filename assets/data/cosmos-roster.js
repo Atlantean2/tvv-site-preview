@@ -7,7 +7,7 @@
    2. Add, remove or edit teams in "teams". Each team needs:
         slug     : short id, lowercase-with-dashes, unique (used in links such as cosmos-orbits.html#team-risk-watch)
         name     : public team name shown on the star
-        ring     : 1-4, which orbit on the Orbits views (1 = closest to Michael); ring names are in "rings"
+        ring     : 1-4, which orbit on the Orbits views (1 = closest to the sun); ring names are in "rings"
         arm      : 0 or 1, which spiral arm on the Galaxy views (0 gold, 1 red); keep the two arms roughly even
         size     : 1 (small) to 3 (large), the star's size
         role     : one public-safe sentence: what the team does
@@ -23,9 +23,8 @@
    5. Save, then reload any of the four pages. No other file changes. */
 window.TVV_COSMOS_ROSTER = {
   asOf: "2026-11-02",
-  sun: { slug: "michael", name: "Michael Calmeyer Hentschel", short: "Michael",
-    role: "Managing Director of TechVestVentures and the sun of this system: every team works under his direction and judgment.",
-    produces: "Direction, judgment and the final approval on everything that goes out." },
+  sun: { slug: "sun", name: "Michaelangelo", short: "Michaelangelo",
+    role: "The greatest human artist, chosen to represent Inspiration: the sun at the center of this system." },
   rings: ["The TVV practice", "Creative and media", "Ideas and research", "Ventures and long-horizon projects"],
   teams: [
     { slug: "command-core", name: "Command Core", source: "Grok Bot Manager & Core", ring: 1, arm: 0, size: 1.4,

@@ -2,12 +2,12 @@
    Lunar views (data-lunar="1" on the sky): each team star also carries 3-6 small role moons (the "moons" in the roster
    file) that orbit it. Moon labels show only on hover, tap or keyboard focus; the team label stays primary.
    ALL team data comes from assets/data/cosmos-roster.js (window.TVV_COSMOS_ROSTER). A weekly refresh swaps only that file.
-   Galaxy page: a slowly rotating two-armed galaxy (gold and red) with Michael's sun at its core.
-   Orbits page: a rotating stellar system, team stars orbiting Michael's sun on four orbits.
+   Galaxy page: a slowly rotating two-armed galaxy (gold and red) with the sun (Michaelangelo, chosen to represent Inspiration) at its core.
+   Orbits page: a rotating stellar system, team stars orbiting the sun on four orbits.
    Each star is a real <button>. Pointing at it, tapping it, or focusing it with Tab shows a short explanation only
    (role and what it produces). Esc, a tap elsewhere, or moving away hides it. No contact links.
    Motion pauses while an explanation is showing, while the tab is hidden, and stops completely under
-   prefers-reduced-motion. #team-<slug> (or #michael) in the address shows that star's explanation on load. */
+   prefers-reduced-motion. #team-<slug> (or #sun; the old #michael still works) in the address shows that star's explanation on load. */
 (function(){
   var DATA = window.TVV_COSMOS_ROSTER; if (!DATA) return;
   var sky = document.getElementById('cc-sky'); if (!sky) return;
@@ -249,7 +249,7 @@
   var rt = 0; window.addEventListener('resize', function(){ clearTimeout(rt); rt = setTimeout(resize, 120); });
   if (window.ResizeObserver) new ResizeObserver(function(){ clearTimeout(rt); rt = setTimeout(resize, 60); }).observe(sky);
   startLoop();
-  var h = location.hash.replace(/^#/, ''), want = h === 'michael' ? 'michael' : (/^team-/.test(h) ? h.slice(5) : ''), mm = /^moon-([a-z0-9-]+)-(\d+)$/.exec(h);
+  var h = location.hash.replace(/^#/, ''), want = (h === 'sun' || h === 'michael') ? DATA.sun.slug : (/^team-/.test(h) ? h.slice(5) : ''), mm = /^moon-([a-z0-9-]+)-(\d+)$/.exec(h);
   if (want){ var el = layer.querySelector('[data-slug="' + want.replace(/[^a-z0-9-]/g, '') + '"]'); if (el) show(el, true); }
   else if (mm && LUNAR){ var me = layer.querySelector('[data-moon="' + mm[1] + ':' + mm[2] + '"]'); if (me) show(me, true); }
 })();
