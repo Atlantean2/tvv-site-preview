@@ -260,3 +260,25 @@ html:not(.tvv-digest-live) .digest-live-only{display:none}
 .page-hero img{display:block; width:100%; height:auto; max-height:420px; object-fit:cover; box-shadow:3px 3px 8px rgba(0,0,0,.3)}
 .page-hero figcaption{font-family:var(--sans); font-size:.8rem; color:#555; margin-top:.4rem}
 .card .src{font-family:var(--sans); font-size:.75rem; color:#555; margin:.5rem 0 0}
+/* v8.1 2026-11-03: visual card grid on Acceleration and Business Models */
+.vgrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,17em),1fr)); gap:1.3rem}
+.vcard{background:#fff; border:1px solid #d6d6d6; box-shadow:3px 3px 6px rgba(0,0,0,.18); display:flex; flex-direction:column}
+.vcard.wide{grid-column:1/-1}
+.vc-media img,.vc-svg{display:block; width:100%; aspect-ratio:16/9; object-fit:cover; height:auto}
+.vcard.wide .vc-media{background:#0B2A4A}
+.enlego{display:block; width:100%; max-width:640px; margin:0 auto; height:auto}
+.vc-video{display:block; width:100%; max-width:720px; margin:0 auto; aspect-ratio:4/3; background:#000}
+.vc-cap{color:#fff; font-family:var(--sans); font-size:.8rem; text-align:center; margin:.3rem 0 .5rem}
+.vc-body{padding:.8rem 1rem 1rem}
+.vc-body h3{margin:.1rem 0 .4rem}
+.vc-lead{font-weight:bold; margin:0 0 .6rem}
+.tag{display:inline-block; font-family:var(--sans); font-size:.62rem; font-weight:normal; letter-spacing:.03em; text-transform:uppercase; border:1px dashed #9a9a9a; color:#555; background:#f3f3f3; padding:.05rem .35rem; vertical-align:middle}
+.pq{margin:.6rem 0; padding:.2rem 0 .2rem .8rem; border-left:3px solid var(--red); font-style:italic; font-size:.92rem}
+.pq p{margin:0 0 .3rem}
+.pq footer{font-style:normal; font-family:var(--sans); font-size:.75rem}
+.track{font-size:.9rem; margin:.4rem 0}
+.vc-src{font-family:var(--sans); font-size:.75rem; color:#555}
+.vcard.side{flex-direction:row}
+.vcard.side .vc-media{flex:0 0 38%; background:none}
+.vcard.side .vc-svg{height:100%; aspect-ratio:auto; min-height:12rem}
+@media (max-width:640px){ .vcard.side{flex-direction:column} .vcard.side .vc-svg{aspect-ratio:16/9; min-height:0} }
