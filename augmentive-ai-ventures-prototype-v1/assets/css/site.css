@@ -21,6 +21,7 @@
   --verdana: Verdana, Geneva, "DejaVu Sans", sans-serif;
 }
 *,*::before,*::after{box-sizing:border-box}
+.ai-red{color:#FF0033; font-weight:bold}
 html{font-size:clamp(16px, .55vw + 10px, 26px); background:#000; -webkit-text-size-adjust:100%}
 body{margin:0; font-family:var(--serif); color:var(--text); background:#000; line-height:1.55}
 img{max-width:100%; height:auto; display:block}
