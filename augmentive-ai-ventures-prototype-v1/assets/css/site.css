@@ -226,6 +226,7 @@ html.tvv-arriving.tvv-reveal .comet{opacity:0; visibility:hidden; pointer-events
 .aav-hero h2::after{display:none}
 .aav-hero p{font-family:var(--serif); font-size:clamp(1.05rem,1.25vw,1.45rem); line-height:1.5; color:#f1f1f1; margin:0 0 .8rem; text-shadow:0 1px 4px rgba(0,0,0,.6)}
 .aav-hero .ph-inline{font-family:var(--sans); font-size:.8rem; color:#d8d8d8; border:1px dashed #9a9a9a; padding:.15rem .45rem; display:inline-block}
+.aav-hero .aav-tagline{font-family:var(--serif); font-weight:700; font-size:clamp(1.5rem, 2.15vw, 2.15rem); line-height:1.28; color:#c4001f; background:#fcfcfc; text-shadow:none; display:inline-block; padding:.7rem .9rem; margin:.15rem 0 .85rem; max-width:100%}
 .aav-cta{display:flex; flex-wrap:wrap; gap:.8rem; margin-top:1.2rem}
 .aav-cta a{font-family:var(--sans); font-weight:bold; font-size:.95rem; text-decoration:none; padding:.7rem 1.2rem; border:1px solid #f3c66b; color:#fff; background:rgba(0,0,0,.45)}
 .aav-cta a:hover, .aav-cta a:focus-visible{background:#f3c66b; color:#111}
