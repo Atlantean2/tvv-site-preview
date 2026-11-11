@@ -1,0 +1,50 @@
+:root{
+  --paper:#F6F3ED;
+  --ink:#1A1A1A;
+  --muted:#5c564e;
+  --line:rgba(26,26,26,.12);
+  --accent:#F4845F;
+  --card:#fffdf9;
+}
+*{box-sizing:border-box}
+html{font-size:16px}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Outfit, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height:1.5;
+}
+a{color:#9a3412}
+a:focus-visible{outline:3px solid var(--accent); outline-offset:3px}
+.wrap{max-width:1080px; margin:0 auto; padding:0 1.25rem}
+header.top{
+  display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+  gap:.75rem; padding:1.1rem 0; border-bottom:1px solid var(--line);
+}
+.brand{font-weight:700; letter-spacing:-.02em; font-size:1.15rem; color:var(--ink); text-decoration:none}
+.top nav{display:flex; flex-wrap:wrap; gap:.9rem 1.1rem; font-size:.95rem}
+.hero{padding:2.4rem 0 1.2rem}
+.kicker{font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:700; margin:0 0 .6rem}
+h1{font-size:clamp(2rem, 4vw, 3.3rem); line-height:1.05; letter-spacing:-.03em; margin:0 0 .8rem; font-weight:600}
+.lede{font-size:1.08rem; max-width:42rem; margin:0 0 1.2rem}
+.ctas{display:flex; flex-wrap:wrap; gap:.6rem; margin:0 0 1rem}
+.ctas a{
+  display:inline-block; text-decoration:none; font-weight:600; border-radius:8px;
+  padding:.65rem 1rem;
+}
+.ctas a.primary{background:var(--accent); color:#fff}
+.ctas a.secondary{background:transparent; color:var(--ink); border:1px solid var(--line)}
+.note{font-size:.9rem; color:var(--muted); max-width:42rem}
+.grid{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:1rem; padding:1rem 0 2rem}
+.card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:1.1rem 1.15rem}
+.card h2{font-size:1.2rem; margin:.2rem 0 .45rem; letter-spacing:-.02em}
+.card p{margin:0 0 .7rem; color:var(--ink)}
+.card ol{margin:.2rem 0 .8rem; padding-left:1.15rem}
+.source{display:block; margin-top:.4rem; font-size:.9rem; font-weight:600}
+.clone{background:#fff; border-top:1px solid var(--line); padding:1.6rem 0 2rem}
+.clone h2{margin:0 0 .4rem}
+footer{border-top:1px solid var(--line); background:#F1EDE5; padding:1rem 0 1.4rem; font-size:.78rem; color:rgba(26,26,26,.72)}
+@media (max-width:800px){
+  .grid{grid-template-columns:1fr}
+}

@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+Sitemap: https://intualityai.com/sitemap_index.xml
+Crawl-delay: 10
