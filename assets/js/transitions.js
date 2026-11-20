@@ -35,8 +35,8 @@ window.TVV_TX_INIT = function(){
   // Outside addresses the tab transition (go.html) may open. Anything else is refused.
   var SITES = [
     "https://techvesteconometrics.com", "https://intualityai.com/the-science/", "https://brysonusa.com",
-    "https://cognomiq.com", "https://stemxbank.com", "https://ultimateplan.net", "https://hanscalmeyer.com",
-    "https://web.archive.org/web/20141225211952/http://www.ideamille.com/",
+    "https://cognomiq.com", "https://stemxbank.com", "ultimate-plan-preview/index.html", "https://hanscalmeyer.com",
+    "ideamille-preview/index.html",
     "augmentive-ai-ventures-prototype-v1/index.html"
   ];
   // v7.1 2026-11-01: the TVV Daily Digest, from the single DIGEST_URL constant in assets/js/digest.js.
@@ -89,9 +89,9 @@ window.TVV_TX_INIT = function(){
     var gi = mt ? (Math.max(1, +mt[1]) - 1) % A.length : 0, left = false;
     function leave(){ if (left) return; left = true; location.replace(to); }
     if (reduce) { leave(); return; }
-    // the outside sites all start on a white or near-white page, so the picture dissolves to white before the
-    // address changes; the Augmentive prototype is black, so it dissolves to black. No hard cut either way.
-    var endBg = /^https:/.test(to) ? '#fff' : '#000';
+    // Venture sites and the Ultimate Plan and IdeaMille copies start on a light page, so the picture dissolves
+    // to white before the address changes. The Augmentive prototype is black, so it dissolves to black.
+    var endBg = /augmentive-ai-ventures-prototype-v1/.test(to) ? '#000' : '#fff';
     race(show(gi), 800).then(function(){
       requestAnimationFrame(function(){ requestAnimationFrame(function(){ html.classList.add('tvv-go-in'); }); });
       setTimeout(function(){
