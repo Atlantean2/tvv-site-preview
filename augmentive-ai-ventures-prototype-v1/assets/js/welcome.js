@@ -5,7 +5,7 @@
    The full script is kept as screen-reader-only text. Balloon colour: --wb-balloon in welcome.css (green);
    preview red with ?balloon=red. Voice: Kokoro-82M (Apache 2.0), synthetic US English female voice.
    Today: network = index.html; cosmos = the four Cosmic Command Center views; augmentive = the Augmentive AI
-   Ventures prototype home (which carries its own copy of this file, welcome.css and its clip). */
+   Augmentive AI Ventures home (which carries its own copy of this file, welcome.css and its clip). */
 (function(){
   var banner = document.querySelector('.mh-banner[data-welcome]');
   if (!banner) return;
@@ -19,7 +19,7 @@
       title:'Welcome to the TechVestVentures Network',
       text:['Welcome to the TechVestVentures Network. Since 1987, TechVestVentures has helped ventures succeed through acceleration, venture capital, business models and board advice.',
             'Today it anchors a family of affiliated sites: Intuality, for Predictive AI. Bryson, for Empowered Water. CognomIQ, for Semantic AI. stemXbank: Save Your Self. And hanscalmeyer.com: Life Saver.',
-            'Alongside them sit techvesteconometrics, ultimateplan, IdeaMille (coming back soon) and the TVV Daily Risk Alert Digest, with daily risk alerts and graphs. Come and explore the ventures.'],
+            'Alongside them sit techvesteconometrics, ultimateplan, IdeaMille and the TVV Daily Risk Alert Digest, with daily risk alerts and graphs. Come and explore the ventures.'],
       audio:'Welcome TVV Network 2026-11-03 v3.0.mp3',
       link:{ href:'ventures.html', label:'Explore the Ventures' } },
     cosmos: {

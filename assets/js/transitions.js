@@ -34,13 +34,13 @@ window.TVV_TX_INIT = function(){
   ];
   // Outside addresses the tab transition (go.html) may open. Anything else is refused.
   var SITES = [
-    "https://techvesteconometrics.com", "https://intualityai.com/the-science/", "https://brysonusa.com",
+    "https://techvesteconometrics.com", "intuality-assessments-preview/index.html", "https://brysonusa.com",
     "https://cognomiq.com", "https://stemxbank.com", "ultimate-plan-preview/index.html", "https://hanscalmeyer.com",
     "ideamille-preview/index.html",
     "augmentive-ai-ventures-prototype-v1/index.html"
   ];
   // v7.1 2026-11-01: the TVV Daily Digest, from the single DIGEST_URL constant in assets/js/digest.js.
-  // Allowed only once that constant holds a real https address; while it is the "#...pending" placeholder the
+  // Allowed only once that constant holds a real https address. Until then the
   // Digest tile does not navigate at all, so go.html never receives it.
   if (window.TVV_DIGEST_LIVE && window.TVV_DIGEST_URL) SITES.unshift(window.TVV_DIGEST_URL);
   var FADE_IN = 700, HOLD = 600, FADE_OUT = 700;            // 2.0 s in all
@@ -83,14 +83,14 @@ window.TVV_TX_INIT = function(){
     var to = ''; try { to = mto ? decodeURIComponent(mto[1]) : ''; } catch(e){}
     if (SITES.indexOf(to) < 0) to = '';
     var link = document.querySelector('.go-link');
-    if (link && to) { link.href = to; link.textContent = to.replace(/^https?:\/\//, '').replace(/^\.\.\/.*/, 'Augmentive AI Ventures prototype'); }
+    if (link && to) { link.href = to; link.textContent = to.replace(/^https?:\/\//, '').replace(/^\.\.\/.*/, 'Augmentive AI Ventures'); }
     if (!to){ html.classList.add('tvv-go-bad'); return; }
     try { var pc = document.createElement('link'); pc.rel = 'preconnect'; pc.href = new URL(to, location.href).origin; if (/^https:/.test(pc.href)) document.head.appendChild(pc); } catch(e){}
     var gi = mt ? (Math.max(1, +mt[1]) - 1) % A.length : 0, left = false;
     function leave(){ if (left) return; left = true; location.replace(to); }
     if (reduce) { leave(); return; }
     // Venture sites and the Ultimate Plan and IdeaMille copies start on a light page, so the picture dissolves
-    // to white before the address changes. The Augmentive prototype is black, so it dissolves to black.
+    // to white before the address changes. The Augmentive pages are black, so they dissolve to black.
     var endBg = /augmentive-ai-ventures-prototype-v1/.test(to) ? '#000' : '#fff';
     race(show(gi), 800).then(function(){
       requestAnimationFrame(function(){ requestAnimationFrame(function(){ html.classList.add('tvv-go-in'); }); });
