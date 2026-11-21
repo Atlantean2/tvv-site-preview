@@ -1,4 +1,4 @@
-/* Augmentive AI Ventures prototype v1 (built on the TechVestVentures v3 architecture).
+/* Augmentive AI Ventures v1 (built on the TechVestVentures v3 architecture).
    Transition + mobile menu + high-res art on 2560 px screens. Works from file:// (no fetch).
    The transition is switchable: see assets/js/config.js (site-wide, per page, per link).
    Transition: on an internal link click the Human and Machine Hands art fades in over the content area (600 ms),

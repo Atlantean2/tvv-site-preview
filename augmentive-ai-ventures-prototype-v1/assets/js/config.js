@@ -1,4 +1,4 @@
-/* Augmentive AI Ventures prototype: site-wide settings. Edit and save; no build step.
+/* Augmentive AI Ventures: site-wide settings. Edit and save; no build step.
    transition : "all"    = the hands art fades in on every internal page click (default)
                 "marked" = only on links that carry data-transition="on"
                 "off"    = never (pages open directly)

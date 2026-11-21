@@ -1,4 +1,4 @@
-/* TechVestVentures prototype v6.1 2026-10-30: mobile menu + high-res art on 2560 px screens (transitions: see transitions.js).
+/* TechVestVentures v6.1 2026-10-30: mobile menu + high-res art on 2560 px screens (transitions: see transitions.js).
    Works from file:// (no fetch). */
 (function(){
   var html = document.documentElement;
