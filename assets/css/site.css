@@ -227,6 +227,10 @@ html.tvv-arriving.tvv-reveal .comet{opacity:0; visibility:hidden; pointer-events
 .bio-full .bio-role{margin:.1rem 0 .4rem; color:#5a5a5a; font-family:var(--sans); font-size:.85rem}
 .bio-full ul{margin:.3rem 0 .8rem 1.2rem; padding:0}
 .bio-full li{margin:.15rem 0}
+/* Largest size that keeps every bio bullet on one line at 1280 and 1440. Below that, the original size wraps. */
+@media (min-width:1280px){
+  .bio-full li{font-size:clamp(9.15px, .29375vw + 5.39px, 9.62px)}
+}
 .bio-full .bio-src{margin-top:2rem; color:#777; font-family:var(--sans); font-size:.78rem}
 
 /* v6 2026-10-30: home headline on one line where it fits (1920 and 2560 screens);
