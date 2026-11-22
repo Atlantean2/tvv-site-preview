@@ -20,40 +20,40 @@ window.TVV_COLUMN = [
     hires:   "assets/img/art/4k/concept-1-building-blocks-cosmos-tall-4k.png",
     tall:    true,   /* v6: shown 1.5x taller (art 1.5x larger), cropped more vertical */
     alt:     "Golden building-block cubes floating in a dark cosmos around a red arrow",
-    link:    "business-models.html", caption: "Building Blocks Cosmos", label: "Business Models" },
+    link:    "business-models.html", caption: "Augmentive Acceleration", label: "Business Models" },
 
   { image:   "assets/img/art/concept-3-red-arrow-comet-1280.webp",
     image2x: "assets/img/art/concept-3-red-arrow-comet-1920.webp",
     hires:   "assets/img/art/4k/concept-3-red-arrow-comet-4k.png",
     alt:     "A red arrow streaking like a comet across a golden mosaic sky",
-    link:    "acceleration.html", caption: "Red Arrow Comet", label: "Acceleration" },
+    link:    "acceleration.html", caption: "TechVest Growth Comet", label: "Acceleration" },
 
-  /* v6.0 2026-10-31: Michael's angels-and-demons chessboard, on black, directly below the Red Arrow Comet.
-     Shown only (no link). Full-size original (2000 x 1125 PNG) in assets/img/art/4k/. */
+  /* v6.0 2026-10-31: Michael's angels-and-demons chessboard, on black, directly below the TechVest Growth Comet.
+     Full-size original (2000 x 1125 PNG) in assets/img/art/4k/. */
   { image:   "assets/img/art/angels-and-demons-chessboard-1280.webp",
     image2x: "assets/img/art/angels-and-demons-chessboard-2000.webp", image2xWidth: 2000,
     hires:   "assets/img/art/4k/angels-and-demons-chessboard-original-2000.png",
     matte:   true,
     alt:     "Golden angels and red demons facing off on a gold-and-crimson chessboard",
-    caption: "Angels and Demons" },
+    link:    "ultimate-plan-preview/index.html", caption: "Angels and Demons Chess", label: "Strategy" },
 
   { image:   "assets/img/art/concept-4-ventures-constellation-1280.webp",
     image2x: "assets/img/art/concept-4-ventures-constellation-1920.webp",
     hires:   "assets/img/art/4k/concept-4-ventures-constellation-4k.png",
     alt:     "Glowing golden icon tiles linked in a constellation around a red arrow",
-    link:    "ventures.html", caption: "Ventures Constellation", label: "Ventures" },
+    link:    "ventures.html", caption: "Ventures Constellation", label: "TechVest Universe" },
 
   { image:   "assets/img/art/concept-2-human-and-machine-hands-1280.webp",
     image2x: "assets/img/art/concept-2-human-and-machine-hands-1920.webp",
     hires:   "assets/img/art/4k/concept-2-human-and-machine-hands-4k.png",
     alt:     "A human hand and a machine hand passing a golden cube marked with a red arrow",
-    link:    "acceleration.html", caption: "Human and Machine Hands", label: "Acceleration" },
+    link:    "acceleration.html", caption: "Human and Machine Hands", label: "Knowledge Fusion" },
 
   { image:   "assets/img/art/concept-5-humanities-and-sciences-1280.webp",
     image2x: "assets/img/art/concept-5-humanities-and-sciences-1920.webp",
     hires:   "assets/img/art/4k/concept-5-humanities-and-sciences-4k.png",
     alt:     "A classical column, lyre and books beside a DNA helix and building blocks under a red arrow",
-    link:    "business-models.html", caption: "Humanities and Sciences", label: "Business Models" },
+    link:    "business-models.html", caption: "Humanities and Sciences", label: "Technology Wisdom" },
 
   { image:   "assets/img/art/concept-6-golden-cube-unfolding-1280.webp",
     image2x: "assets/img/art/concept-6-golden-cube-unfolding-1920.webp",
