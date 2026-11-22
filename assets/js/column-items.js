@@ -20,7 +20,7 @@ window.TVV_COLUMN = [
     hires:   "assets/img/art/4k/concept-1-building-blocks-cosmos-tall-4k.png",
     tall:    true,   /* v6: shown 1.5x taller (art 1.5x larger), cropped more vertical */
     alt:     "Golden building-block cubes floating in a dark cosmos around a red arrow",
-    link:    "business-models.html", caption: "Augmentive Acceleration", label: "Business Models" },
+    link:    "business-models.html", caption: "Cosmic Building Blocks", label: "Business Models" },
 
   { image:   "assets/img/art/concept-3-red-arrow-comet-1280.webp",
     image2x: "assets/img/art/concept-3-red-arrow-comet-1920.webp",
