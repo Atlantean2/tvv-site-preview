@@ -4,8 +4,7 @@
    and plays that page's welcome clip; a click on the button or balloon, or Esc, stops it; it fades when the clip ends.
    The full script is kept as screen-reader-only text. Balloon colour: --wb-balloon in welcome.css (green);
    preview red with ?balloon=red. Voice: Kokoro-82M (Apache 2.0), synthetic US English female voice.
-   Today: network = index.html; cosmos = the four Cosmic Command Center views; augmentive = the Augmentive AI
-   Augmentive AI Ventures home (which carries its own copy of this file, welcome.css and its clip). */
+   Today: network = index.html; cosmos = the four Cosmic Command Center views; augmentive = the Augmentive AI Ventures home (which carries its own copy of this file, welcome.css and its clip). */
 (function(){
   var banner = document.querySelector('.mh-banner[data-welcome]');
   if (!banner) return;
