@@ -219,6 +219,13 @@ html.tvv-arriving.tvv-reveal .comet{opacity:0; visibility:hidden; pointer-events
 .bio-more a:hover{color:var(--navy)}
 .bio-full{max-width:80ch}
 .bio-full p, .bio-full li{font-family:var(--serif); line-height:1.65}
+/* Desktop: the bullet list uses the full content width, about 1pt under the body size.
+   Prose, including the TechVest Founder introduction, stays in the 80ch column and may wrap. */
+@media (min-width:1280px){
+  .bio-full{max-width:none}
+  .bio-full h2, .bio-full h3, .bio-full h4, .bio-full p{max-width:80ch}
+  .bio-full li{font-size:calc(clamp(16px, .55vw + 10px, 26px) - 1pt)}
+}
 .bio-back{font-family:var(--sans); font-size:.82rem}
 /* v3 complete bio */
 .bio-full h3{margin:2.2rem 0 .6rem; color:var(--navy); font-size:1.15rem; border-bottom:1px solid #ddd; padding-bottom:.25rem}
@@ -227,10 +234,6 @@ html.tvv-arriving.tvv-reveal .comet{opacity:0; visibility:hidden; pointer-events
 .bio-full .bio-role{margin:.1rem 0 .4rem; color:#5a5a5a; font-family:var(--sans); font-size:.85rem}
 .bio-full ul{margin:.3rem 0 .8rem 1.2rem; padding:0}
 .bio-full li{margin:.15rem 0}
-/* Largest size that keeps every bio bullet on one line at 1280 and 1440. Below that, the original size wraps. */
-@media (min-width:1280px){
-  .bio-full li{font-size:clamp(9.15px, .29375vw + 5.39px, 9.62px)}
-}
 .bio-full .bio-src{margin-top:2rem; color:#777; font-family:var(--sans); font-size:.78rem}
 
 /* v6 2026-10-30: home headline on one line where it fits (1920 and 2560 screens);
